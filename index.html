@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tailwind project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- 2nd font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: "#da373d",
+          },
+          fontFamily: {
+            f: ["Roboto", sans - serif],
+            font: ["Bebas Neue", sans - serif],
+          },
+        },
+      },
+    };
+  </script>
+</head>
+
+<!-- header area start -->
+
+<header class="mt-8 md:mt-10">
+  <div class="container mx-auto px-4 max-w-[1320px]">
+    <div class="flex justify-end">
+      <ul class="list-none flex">
+        <li class="mx-5 md:mx-10"><a href="#">About</a></li>
+        <li class="mx-5 md:mx-10"><a href="#">Work</a></li>
+        <li class="mx-5 md:mx-10"><a href="#">Portfolio</a></li>
+        <!-- Corrected spelling -->
+        <li class="mx-5 md:mx-10"><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<!-- header area start -->
+<!-- banner area start -->
+<section class="mt-12 md:mt-20 lg:mt-0">
+  <div class="container mx-auto px-4 max-w-[1320px]">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div class="text-center md:text-left">
+        <h1
+          class="text-[40px] leading-[50px] sm:text-[50px] sm:leading-[50px] md:text-[80px] md:leading-[90px] font-bold font-[font]">
+          <strong class="text-[#363958]"> HELLO, I'M <br /></strong>
+          <strong class="text-[#FF8367]">ROB DAVIDSON</strong>
+        </h1>
+        <p class="text-[18px] font-normal leading-7 text-[#3E3E3E] font-[f] max-w-auto md:w-[309px] mt-6 md:mt-0">A full
+          stack allaround designer that placerat in massa consectetur</p>
+        <a href="#"
+          class="bg-[#F46060] text-white px-12 py-5 text-xl font-semibold rounded-md mt-10 inline-block font-[f]">Hire
+          Me</a>
+      </div>
+      <div class="relative">
+        <img class="w-full" src="assets/images/1.png" alt="img" />
+        <div class="w-[110px] h-[110px] bg-[#F46060] rounded-full absolute bottom-20 right-4"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- banner area end -->
+<!-- about area start -->
+<section>
+  <div class="container mx-auto px-4 max-w-[1320px]">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div>
+        <img class="w-full" src="assets/images/2.png" alt="img" />
+      </div>
+      <div class="ml-0 lg:ml-[200px]">
+        <h2
+          class="text-[30px] leading-[40px] sm:text-[40px] sm:leading-[50px] md:text-[50px] md:leading-[60px] font-bold font-[font] text-center md:text-left">
+          About
+        </h2>
+        <p class="text-[18px] font-normal leading-7 text-[#3E3E3E] font-[f] mt-8">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+          to make a type specimen book.
+        </p>
+        <div class="mt-10 px-8 py-5 bg-[#F46060] rounded-md inline-block ml-16 sm:ml-28 md:ml-0">
+          <i class="fa-solid fa-download cursor-pointer text-white px-3"></i>
+          <a href="#" class="text-white text-xl font-semibold font-[f]">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- about area end -->
+<!-- working area start -->
+<section class="py-20 md:py-28 bg-[#E5E5E5] mt-12 md:mt-24 lg:mt-32">
+  <div class="container mx-auto px-4 max-w-[1320px]">
+    <h2
+      class="text-[30px] leading-[40px] sm:text-[40px] sm:leading-[50px] md:text-[50px] md:leading-[60px] font-bold font-[font] text-center mb-16 md:mb-24">
+      <strong class="text-[#F46060]">LASTET </strong>
+      <strong class="text-[#363958]">WORKING PROJECT</strong>
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mt-8">
+      <div class="bg-white rounded-md">
+        <div class="flex justify-center mb-1 px-4 py-4">
+          <img src="assets/images/image4.png" class="text-center" alt="img" />
+        </div>
+        <div class="mx-5">
+          <h3 class="text-[#363958] text-[28px] font-bold font-[f]">Power-x-gym (gym website)</h3>
+          <p class="text-[18px] font-normal leading-7 text-[#6C6C6C] font-[f] mt-2 mb-5">Lorem Ipsum is simply dummy
+            text of the printing and typesetting industry.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-md">
+        <div class="flex justify-center mb-1 px-4 py-4">
+          <img src="assets/images/image5.png" class="text-center" alt="img" />
+        </div>
+        <div class="mx-5">
+          <h3 class="text-[#363958] text-[28px] font-bold font-[f]">Creative Agency</h3>
+          <p class="text-[18px] font-normal leading-7 text-[#6C6C6C] font-[f] mt-2 mb-5">Lorem Ipsum is simply dummy
+            text of the printing and typesetting industry.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-md">
+        <div class="flex justify-center mb-1 px-4 py-4">
+          <img src="assets/images/image8.png" class="text-center" alt="img" />
+        </div>
+        <div class="mx-5">
+          <h3 class="text-[#363958] text-[28px] font-bold font-[f]">Hard Rock Music</h3>
+          <p class="text-[18px] font-normal leading-7 text-[#6C6C6C] font-[f] mt-2 mb-5">Lorem Ipsum is simply dummy
+            text of the printing and typesetting industry.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- working area end -->
+<!-- Work Inquiry area -->
+<section class="my-16 md:my-28">
+  <div class="container mx-auto max-w-[1320px]">
+    <div
+      class="w-[340px] sm:w-[500px] md:w-[700px] lg:w-[906px] bg-[#4225B6] mx-auto py-14 sm:py-20 rounded-md relative">
+      <h2
+        class="text-[28px] leading-[40px] sm:text-[40px] sm:leading-[50px] md:text-[64px] md:leading-[80px] font-bold font-[font] inline-block text-white ml-[16px] sm:ml-[40px] lg:ml-[70px]">
+        Work Inquiry
+      </h2>
+      <a class="bg-[#F46060] text-white px-4 sm:px-8 py-3 sm:py-4 text-xl font-semibold rounded-md ml-[25px] sm:ml-[50px] md:ml-[80px] lg:ml-[200px] inline-block font-[f]"
+        href="#">Let’s Chat</a>
+      <img class="absolute bottom-[-50px] right-[120px] sm:right-[337px]" src="assets/images/9.png" alt="" />
+      <img class="absolute top-[-50px] right-[100px]" src="assets/images/9.png" alt="" />
+    </div>
+  </div>
+</section>
+<!-- Work Inquiry area end -->
+<!-- footer area strat -->
+<footer>
+  <div class="container mx-auto max-w-[1320px]">
+    <div class="text-center">
+      <strong class="text-2xl font-bold text-[#696871] font-[font]">Stay connected</strong>
+      <h3 class="text-[36px] font-bold text-[363958] font-[f] mt-3">hello@design.com</h3>
+    </div>
+    <ul class="flex justify-center mt-2 mb-16 md:mb-24">
+      <li class="mx-6 text-[28px] text-[#F46060]"><i class="fab fa-dribbble"></i></li>
+      <li class="mx-6 text-[28px] text-[#4176FA]"><i class="fab fa-behance"></i></li>
+      <li class="mx-6 text-[28px] text-[#FF8063]"><i class="fab fa-instagram"></i></li>
+    </ul>
+  </div>
+</footer>
+<!-- footer area end -->
+
+<body></body>
+
+</html>
